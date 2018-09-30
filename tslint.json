@@ -1,0 +1,13 @@
+{
+    "rulesDirectory": [
+        "node_modules/codelyzer"
+    ],
+    "extends": "angular-tslint-rules",
+    "rules": {
+        "array-type": [false],
+        "one-line": [false],
+        "newline-per-chained-call": [false],
+        "no-console": [false],
+        "no-implicit-dependencies": [true, "dev"]
+    }
+}
